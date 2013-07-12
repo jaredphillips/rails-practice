@@ -27,7 +27,6 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-
 gem "sorcery", "~> 0.8.2"
 
 # foundation is used for design bootstraping

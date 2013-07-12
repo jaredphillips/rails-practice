@@ -20,3 +20,4 @@ class ActionDispatch::IntegrationTest
 	include Capybara::DSL
 
 	Capybara.app = Practice::Application
+end

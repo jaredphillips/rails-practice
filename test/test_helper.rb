@@ -12,4 +12,11 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+
 end
+
+class ActionDispatch::IntegrationTest
+	# make the Capybara DSL available in all integration tests
+	include Capybara::DSL
+
+	Capybara.app = Practice::Application

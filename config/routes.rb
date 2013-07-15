@@ -1,5 +1,10 @@
 Practice::Application.routes.draw do
-  root 'static_pages#index'
+  # get "users/index"
+  # get "users/show"
+  # get "users/edit"
+  # get "users/create"
+  # get "users/destroy"
+  root to: 'static_pages#index'
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
